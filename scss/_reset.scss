@@ -4,7 +4,9 @@
     list-style: none;
     text-decoration: none;
     outline: none;
+    border: none;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -24,4 +26,5 @@ html, body {
 button {
     background-color: transparent;
     cursor: pointer;
+
 }
