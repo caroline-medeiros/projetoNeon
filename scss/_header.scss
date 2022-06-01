@@ -5,7 +5,9 @@ header {
   height: 88px;
   width: 100%;
   display: flex;
-  background: blue;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  
+
   .container {
     @include flex(row, center, space-between);
   }
