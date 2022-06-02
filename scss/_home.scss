@@ -83,3 +83,69 @@
     }
   }
 } 
+
+.s-card-neon {
+  padding-top: 12.9rem;
+  .left-area {
+    width: 100%;
+    max-width: 27.7rem;
+    .ilustra-mockup {
+      width: 100%;
+      max-width: 27.7rem;
+      position: relative;
+      margin-bottom: 12.9rem;
+      .circle {
+        position: absolute;
+        z-index: -1;
+        top: 8.7rem;
+        max-width: 37.7rem;
+        left: -21.4rem;
+      }
+    }
+    .text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icon {
+        position: relative;
+        &:before {
+          content: "";
+          width: 5px;
+          height: 83px;
+          background-color: red;
+          display: inline-block;
+          position: absolute;
+          top: -104px;
+          left: 50%;
+          
+        }
+      }
+      .info-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+          text-align: center;
+          margin-top: 3.6rem;
+          color: $gray-600;
+        }
+        p {
+          text-align: center;
+          font-size: 16px;
+          line-height: 150%;
+          color: $gray-400;
+          opacity: 0.8;
+          margin-bottom: 2.6rem;
+        }
+        ul {
+          li {
+            &:not(:last-child) {
+              margin-bottom: 2.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
