@@ -755,4 +755,111 @@
       }
     }
   }
+  @include responsive(1200px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .image {
+      margin-right: 0;
+      left: 0;
+      margin-top: 5rem;
+    }
+    .text {
+      max-width: 75%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        text-align: center;
+        max-width: 80%;
+      }
+    }
+  }
+
+  @include responsive(900px) {
+    padding-top: 8.6rem;
+    padding-bottom: 8.1rem;
+    .text {
+      max-width: 100%;
+
+    }
+    .image {
+      max-width: 58.2rem;
+      height: 63.3rem;
+      img {
+        &.circle {
+          width: 100%;
+        }
+        &.mockup-01 {
+          z-index: 2;
+        }
+        &.mockup-02 {
+          z-index: 2;
+        }
+      }
+    }
+  }
+
+  @include responsive(480px) {
+    padding-top: 5.7rem;
+    padding-bottom: 7.2rem;
+    .text {
+      margin-bottom: 4.4rem;
+      h2 {
+        max-width: 100%;
+        font-size: 2.6rem;
+        font-weight: 600;
+        margin-bottom: 3.9rem;
+        span {
+          font-size: 2.4rem;
+          font-weight: 600;
+        }
+      }
+      ul {
+        li {
+          flex-direction: column;
+          align-items: center;
+          &:not(:last-child) {
+            margin-bottom: 5.6rem;
+          }
+          .icon {
+            margin-right: 0;
+            margin-bottom: 1.6rem;
+          }
+          .info {
+            h4 {
+              text-align: center;
+              max-width: 28rem;
+            }
+            p {
+              text-align: center;
+              font-size: 1.4rem;
+              max-width: 21rem;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+    .image {
+      max-width: 36.7rem;
+      height: 46.9rem;
+      img {
+        &.mockup-01,
+        &.mockup-02 {
+          max-width: 16.8rem;
+        }
+        &.mockup-01 {
+          bottom: initial;
+          top: 5.8rem;
+        }
+        &.mockup-02 {
+          left: initial;
+          right: 0;
+          top: 0;
+        }
+      }
+    }
+  }
 }
