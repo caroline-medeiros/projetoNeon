@@ -1,15 +1,19 @@
 
-![Logo]()
+![Logo](https://user-images.githubusercontent.com/97336674/175954425-5b454a2e-ab2d-4343-a8d4-dca916027716.png)!
+
 
 
 # Projeto Neon - Redesign
 
-Esse projeto foi desenvolvido pelo curso Codeboost e tem o intuito de ensinar a criar um site 
+Esse projeto foi desenvolvido pelos curso uiBoost e codeBoost  e tem o intuito de ensinar a criar um site 
 responsivo, utilizando stacks como HTML, CSS/SASS e JavaScript.
 
 Utilizamos a biblioteca https://swiperjs.com/ para o slider e a https://michalsnik.github.io/aos/ para as animações.
 
-Esse é o resultado : 
+Esse é o resultado : https://caroline-medeiros.github.io/projetoNeon/
+
+![screencapture-127-0-0-1-5500-index-html-2022-06-27-10_11_24](https://user-images.githubusercontent.com/97336674/175954478-24e5d9fa-195b-40c6-aaac-c00e389e910b.png)
+
 
 
 
