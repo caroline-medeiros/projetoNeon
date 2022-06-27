@@ -1,6 +1,5 @@
 
-![Logo](![cover (1)](https://user-images.githubusercontent.com/97336674/175959406-da9b4f8c-4e02-4d69-9b2c-e56750e88707.png)
-)!
+![Logo](https://user-images.githubusercontent.com/97336674/175959406-da9b4f8c-4e02-4d69-9b2c-e56750e88707.png)!
 
 
 
