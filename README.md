@@ -5,7 +5,7 @@
 
 # Projeto Neon - Redesign
 
-Esse projeto foi desenvolvido pelos curso uiBoost e codeBoost  e tem o intuito de ensinar a criar um site 
+Esse projeto foi desenvolvido pelos cursos uiBoost e codeBoost  e tem o intuito de ensinar a criar um site 
 responsivo, utilizando stacks como HTML, CSS/SASS e JavaScript.
 
 Utilizamos a biblioteca https://swiperjs.com/ para o slider e a https://michalsnik.github.io/aos/ para as animações.
